@@ -14,6 +14,9 @@ function CarCard(props) {
                     <Card.Text>
                         {props.description}
                     </Card.Text>
+                    <Card.Text>
+                        {props.likes} Likes
+                    </Card.Text>
                     <Button variant="dark">View More</Button>
                 </Card.Body>
             </Card>

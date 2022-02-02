@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function NavbarComponent() {
     return (
@@ -8,8 +9,8 @@ function NavbarComponent() {
                 <Container>
                     <Navbar.Brand href="#home">Car Warz</Navbar.Brand>
                     <Nav className="mx-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#current-winner">Current Winner</Nav.Link>
+                        <Link to="/">  Top Rank</Link>
+                        <Link to="/">All</Link>
                     </Nav>
                 </Container>
             </Navbar>
